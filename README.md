@@ -2,7 +2,7 @@
 
 
 
-0. Install the sakira database if not already there. 
+# 0. Install the sakira database if not already there. 
 	a. Download from: https://downloads.mysql.com/docs/sakila-db.zip
 	b. Extract folder
 	c. In MySQL Workbench, when connected to local instance, go to Administration -> Data Import/Restore
@@ -12,7 +12,7 @@
 	f. Repeat step d. and e. for the file sakila-data.sql".
 	
 
-1. Queries in MySQL Workbench. 
+# 1. Queries in MySQL Workbench. 
 
 	a. Open MySQL Workbench and create a new SQL tab (CTRL / CMD + t) 
 	b. write "USE sakila;" at the very first line.
@@ -29,14 +29,13 @@
 	m. SELECT all the horror films using the IN keyword.
 	n. SELECT all the horror films using the AS keyword. 
 	
-2.
+# 2. More queries 
 	a. INSERT a row in the "actor" table, with your own first and last name
 	b. INSERT 5 rows in the "film_actor" table, with the actor_id given to you, along with 5 film_id's of your choosing.  
 	c. UPDATE the first_name and last_name of the row containing your name, and set it to your newfound stage name. 
 	d. Delete the row containing your data, and give up your acting career. 
 
-3.
-JOINS
+# 3. JOINS
 + things from 1.
 	a. SELECT all horror films using the JOIN keyword. 
 	b. 
@@ -44,7 +43,7 @@ JOINS
 	SELECT count(*) films divided by film_category
 
 
-4. Diagram and relational database
+# 4. Diagram and relational database
 	a. In MySQL workbench, go to File -> new Model -> new Diagram
 	b. model a database that can hold data of a customer making an order of multiple products. 
 	c. Once done with the diagram, go to File -> Export -> Forward Engineering.
@@ -56,7 +55,7 @@ JOINS
 	i. Press refresh in the Schemas and review your new tables. 
 	j. If you like, you can try to insert data to it. 
 	
-5. JDBC
+# 5. JDBC
 	a. Create a connection to your local instance world database. 
 		- The URL should look like this: "jdbc:mysql://localhost/world"
 		- Create the connection like this: 
