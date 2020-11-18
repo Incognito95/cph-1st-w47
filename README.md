@@ -1,5 +1,6 @@
 # cph-1st-w47
-
+I denne uge, skal I øve jer på MySQL. 
+Gem SQL scripts med alle de search queries I har brugt til at løse følgende opgave, samt jeres IntelliJ kode til opgave 4 på github og aflevér link til det på moodle, som I plejer. 
 
 
 ## 0. Install the sakira database if not already there. 
