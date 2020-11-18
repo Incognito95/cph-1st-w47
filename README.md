@@ -78,6 +78,8 @@ a. Create a connection to your local instance world database.
         connection = DriverManager.getConnection(URL, username, password);  
     - NOTE: the second line in the above step, must be in a try/catch.
     - ALSO NOTE: You have to define String username and String password with your MySQL login (root/\<password\>)   
+    - THIRD NOTE: If you're having trouble finding the correct driver for the JDBC, try the following and use the one, that doesn't have "bin" in the name:   
+    https://efif.sharepoint.com/:u:/s/cph/Lyngby/Ea3K8LZeFStJjX-XHiTc-RgBK2qD7pe4z5ND8MilZ0lVsw  
 
 b. Create a prepared statement, that retrieves the count of all cities in the city table. Write the result to console.   
 
