@@ -50,10 +50,10 @@ a. Create a connection to your local instance world database.
     - NOTE: the second line in the above step, must be in a try/catch.  
 
 b. Create a prepared statement, that retrieves the count of all cities in the city table. Write the result to console.   
-
 c. Create a prepared statement, that retrieves all cities with a population greater than 5.000.000 and prints each result to console.   
-
-d. Close connection  
+d. Create a class called City with relevant data fields, and populate an arraylist\<City\> with the results retrieved from the above task (c).
+e. Override toString for the City class and print the arrayList to console.
+f. Close connection  
 	
 	
 	
